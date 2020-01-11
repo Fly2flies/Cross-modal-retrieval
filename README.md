@@ -32,6 +32,10 @@
 
 图片数据到`DATA/Flick_10k/flick_image_256`下。也可以自己选择路径，但是后续检索的时候不支持自动初始化。
 
+测试结果如下：
+
+![](https://github.com/EternallyTruth/Cross-modal-retrieval/blob/master/median_compute/Test/result.png)
+
 ## 参考资料
 [双路CNN MatConvNet](https://github.com/EternallyTruth/Image-Text-Embedding)
 
