@@ -1,0 +1,3 @@
+- Checkpoint 存放预训练模型
+- captions_database.pkl 文本特征以内容
+- images_database.pkl 图像特征以及内容

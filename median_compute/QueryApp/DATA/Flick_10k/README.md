@@ -1,0 +1,2 @@
+- flick10k_image_256 存放图片的路径
+- text_info.json 存放字典文件
