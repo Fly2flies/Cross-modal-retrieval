@@ -16,10 +16,23 @@
 
 ## 模型训练
 
-在数据预处理完成后，在`config.py`中配置各文件的路径以及训练的参数
+在数据预处理完成后，在`config.py`中配置各文件的路径以及训练的参数，并且下载在谷歌新闻上预训练的[Word2Vec模型](https://pan.baidu.com/s/1Q9Z-Z8qWxCjNbFmXMty8Dw)
 - `trainStage1.py` 使用分类损失预训练
 - `trainStage2.py` 使用三元组损失和对抗损失微调
 
 ## 测试界面
 
-在 QueryApp 下的 `图文互搜.exe` 提供简单的测试界面。需要提前下载预训练模型`imgcnn.pth`和`textcnn.pth`到`DATA/Checkpoint`下方便自动初始化，`captions_database.pkl`和`images_database.pkl`事先提取的图像和文本特征以及其索引到`DATA/`下，字典`text_info.json`到`DATA/Flick_10k`，图片数据到`DATA/Flick_10k/flick_image_256`下。也可以自己选择路径，但是后续检索的时候不支持自动初始化。
+在 QueryApp 下的 [图文互搜.exe](https://pan.baidu.com/s/104cT0qy3rOKkAilVSkYXuw) 提供简单的测试界面。
+
+需要提前下载预训练模型[imgcnn.pth和textcnn.pth](https://pan.baidu.com/s/1vtLcsHwiTqSkLHvKR-oqbA)到`DATA/Checkpoint`下方便自动初始化，
+
+[captions_database.pkl](https://pan.baidu.com/s/1k_csdkpMaJV9bbv0729jpw)和[images_database.pkl](https://pan.baidu.com/s/1b4L51_225vL9pW9EqsusgA)事先提取的图像和文本特征以及其索引到`DATA/`下，
+
+字典[text_info.json](https://pan.baidu.com/s/1dlG067OS_ZKeDKxnVqtc_Q)到`DATA/Flick_10k`，
+
+图片数据到`DATA/Flick_10k/flick_image_256`下。也可以自己选择路径，但是后续检索的时候不支持自动初始化。
+
+## 参考资料
+[双路CNN MatConvNet](https://github.com/EternallyTruth/Image-Text-Embedding)
+
+[用于图文搜索的对抗学习 ACM2017](https://dl.acm.org/doi/10.1145/3123266.3123326)
