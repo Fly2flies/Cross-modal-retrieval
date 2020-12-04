@@ -22,7 +22,8 @@
 
 ## 测试界面
 
-在 QueryApp 下的 [图文互搜.exe](https://pan.baidu.com/s/104cT0qy3rOKkAilVSkYXuw) 提供简单的测试界面。
+在 QueryApp 下的 [图文互搜.exe](https://pan.baidu.com/s/104cT0qy3rOKkAilVSkYXuw) 提供简单的测试界面。(把相关文件放在对应文件夹下使用一键初始化)
+(修正了不能自己选图像模型的小bug,但是由于环境变换,直接用PyInstaller打包的exe文件较大(提取码1234)[main.exe](https://pan.baidu.com/s/1QzCDdv_yO9y_0gennLNSvg))
 
 需要提前下载预训练模型[imgcnn.pth和textcnn.pth](https://pan.baidu.com/s/1vtLcsHwiTqSkLHvKR-oqbA)到`DATA/Checkpoint`下方便自动初始化，
 
